@@ -25,17 +25,6 @@ function updateMousePos(evt){
 
 	mouseX = evt.clientX - rect.left - root.scrollLeft;
 	mouseY = evt.clientY - rect.top - root.scrollTop;
-
-	// chat/hack to test car in any position
-	/* carX = mouseX;
-	carY = mouseY;
-	carSpeedX = 4;
-	carSpeedY = -4; 
-
-	for(; i<TRACK_COLUMNS * TRACK_ROWS; i++){
-			tracksRemaining++;
-	} // end of for each track
-} // end of trackReset func*/
 }
 
 function keyPressed(evt){
